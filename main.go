@@ -11,25 +11,23 @@ import (
 	"sort"
 	"strconv"
 	"strings"
-	"syscall"
 	"time"
-	"unsafe"
 
+	"github.com/reujab/wallpaper"
 	"github.com/turnage/graw/reddit"
 )
 
 var (
-	user32               = syscall.NewLazyDLL("user32.dll")
-	systemParametersInfo = user32.NewProc("SystemParametersInfoW")
-	landscapeRegex       = regexp.MustCompile(`\[(\d+)x(\d+)\]`) // e.g. [1024x768]
-	subreddit            = "/r/EarthPorn"
+	landscapeRegex = regexp.MustCompile(`\[(\d+)x(\d+)\]`) // e.g. [1024x768]
+	subreddit      = "/r/EarthPorn"
 )
 
 func main() {
 	bot, _ := reddit.NewBotFromAgentFile("./wallpaperbot.agent", 0)
 	url := getWallpaperImage(bot)
 	file := getImage(url)
-	systemParametersInfo.Call(20, 0, uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr(file))), 2)
+
+	wallpaper.SetFromFile(file)
 }
 
 func getWallpaperImage(bot reddit.Bot) string {

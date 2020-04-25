@@ -6,6 +6,8 @@ github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0
 github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/mitchellh/mapstructure v1.1.2 h1:fmNYVwqnSfB9mZU6OS2O6GsXM+wcskZDuKQzvN1EDeE=
 github.com/mitchellh/mapstructure v1.1.2/go.mod h1:FVVH3fgwuzCH5S8UJGiWEs2h04kUh9fWfEaFds41c1Y=
+github.com/reujab/wallpaper v0.0.0-20200229074030-4e1aa3ff8284 h1:AXEamsrMLjIjIfOF5xIJwyNzdqcS4mJzJIM8UiL0a9o=
+github.com/reujab/wallpaper v0.0.0-20200229074030-4e1aa3ff8284/go.mod h1:Xb+5YBsfhPxSJOGF7b4UTZIOxRIg0Lh/FnRJQm5GPJY=
 github.com/turnage/graw v0.0.0-20200404033202-65715eea1cd0 h1:ss0FREpyYvw5V9t5XWWWIvUJnRgWFzdftvCXd8WQNhU=
 github.com/turnage/graw v0.0.0-20200404033202-65715eea1cd0/go.mod h1:aAkq4I/q1izZSSwHvzhDn9NA+eGxgTSuibwP3MZRlQY=
 github.com/turnage/redditproto v0.0.0-20151223012412-afedf1b6eddb h1:qR56NGRvs2hTUbkn6QF8bEJzxPIoMw3Np3UigBeJO5A=
@@ -22,3 +24,8 @@ golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5h
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 google.golang.org/appengine v1.4.0 h1:/wp5JvzpHIxhs/dumFmF7BXTf3Z+dd4uXta4kVyO508=
 google.golang.org/appengine v1.4.0/go.mod h1:xpcJRLb0r/rnEns0DIKYYv+WjYCduHsrkT7/EB5XEv4=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/ini.v1 v1.55.0 h1:E8yzL5unfpW3M6fz/eB7Cb5MQAYSZ7GKo4Qth+N2sgQ=
+gopkg.in/ini.v1 v1.55.0/go.mod h1:pNLf8WUiyNEtQjuu5G5vTm06TEv9tsIgeAvK8hOrP4k=
+gopkg.in/yaml.v2 v2.2.8 h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10=
+gopkg.in/yaml.v2 v2.2.8/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
