@@ -1,6 +1,6 @@
 # Reddit Wallpaper
 
-Grabs the most upvoted, landscape image from /r/EarthPorn within the last 24 hours and sets it as your current Windows desktop background. You can run this once, or install it as a Windows service or through Task Scheduler.
+Grabs the most upvoted, landscape image from /r/EarthPorn within the last 24 hours and sets it as your current  desktop background. You can run this once, or install it as a service or through cron/Task Scheduler.
 
 ## Building
 
@@ -20,4 +20,4 @@ username: "{reddit username}"
 password: "{reddit password}"
 ```
 
-Run using `go run main.go` for a one-off invocation. Or run `go build main.go` and point a Windows service or Task Scheduler at `main.exe` to run it on a schedule.
+Run using `go run main.go` for a one-off invocation. Or run `go build main.go` and point a cron job, Task Scheduler etc at `main.exe` to run it on a schedule.
